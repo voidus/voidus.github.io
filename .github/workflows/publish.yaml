@@ -18,8 +18,8 @@ jobs:
 
       - name: Build neuron site
         run: |
-          nix run github:srid/neuron/164956f --version
-          nix run github:srid/neuron/164956f -o out/ gen --pretty-urls
+          nix run github:srid/neuron/164956f -- --version
+          nix run github:srid/neuron/164956f -- -o out/ gen --pretty-urls
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
