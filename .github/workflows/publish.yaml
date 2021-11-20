@@ -10,6 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - uses: cachix/install-nix-action@v15
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
       - name: Build neuron site
         run: |
           nix-shell --run "neuron --version && neuron -o out/ gen --pretty-urls"
