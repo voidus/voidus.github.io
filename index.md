@@ -1,4 +1,7 @@
 ---
 date: 2021-05-28T03:11
 ---
-yyooooaodsfaosdnno
+# voyd
+This is a collection of random thoughts.
+
+[[z:zettels?tag=project]]
