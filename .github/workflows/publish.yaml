@@ -8,11 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4.0
       - uses: cachix/install-nix-action@v15
-        with:
-          install_url: https://nixos-nix-install-tests.cachix.org/serve/lb41az54kzk6j12p81br4bczary7m145/install
-          install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
       - name: Build neuron site
         run: |
           nix-shell --run "neuron --version && neuron -o out/ gen --pretty-urls"
