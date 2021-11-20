@@ -10,9 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build neuron site 🔧
+      # the neuron version should match the one we uses locally, i.e. in neuron.nix
       run: |
         mkdir -p .neuron/output && touch .neuron/output/.nojekyll
-        docker run -v $PWD:/notes sridca/neuron neuron gen --pretty-urls
+        docker run -v $PWD:/notes sridca/neuron:1.9.35.0 neuron gen --pretty-urls
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
