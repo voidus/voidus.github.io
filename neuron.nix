@@ -2,7 +2,7 @@
 import (pkgs.fetchFromGitHub {
   owner = "srid";
   repo = "neuron";
-  rev = "10e3ea028c23e664e540d0460e9515bdf02ac51d";
-  sha256 = "039a9vgjwal0lb5zz0ilk1vlmhs1yc6vp17j5nnkl639vj5f0yxl";
+  rev = "1.9.35.0"; # this should match the docker image version in the github workflow
+  sha256 = "0mfg4waq1wlqpxj9q5vfsfglpa7bw4yd0jaha1s55gp49swmn2q1";
   fetchSubmodules = true;
 })
