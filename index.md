@@ -13,4 +13,7 @@ If you have feedback, ideas, thoughts or rants, I'd love to hear them at [the gi
 ## Pending projects, yet to be described
 
 - Distributed Wiki using zero-trust nomadic infrastructure and CRDTs
+  - Secure Scuttlebutt as a transport?
+  - LSEQ-undo with the formatting enhancements from that recent paper as a base?
+  - https://reitermk.github.io/papers/1995/CJ.pdf
 - Distributed library
