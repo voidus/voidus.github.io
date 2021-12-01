@@ -15,5 +15,7 @@ If you have feedback, ideas, thoughts or rants, I'd love to hear them at [the gi
 - Distributed Wiki using zero-trust nomadic infrastructure and CRDTs
   - Secure Scuttlebutt as a transport?
   - LSEQ-undo with the formatting enhancements from that recent paper as a base?
-  - https://reitermk.github.io/papers/1995/CJ.pdf
+  - If scuttlebutt provides causality for each log, is that enough?
+    - inventing the transport again is futile, so it better be
+  - https://reitermk.github.io/papers/1995/CJ.pdf (not sure if this is needed?)
 - Distributed library
