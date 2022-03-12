@@ -10,6 +10,8 @@ If you have feedback, ideas, thoughts or rants, I'd love to hear them at [the gi
 
 [[z:zettels?tag=project]]
 
+[[z:zettels?tag=spike]]
+
 ## Pending projects, yet to be described
 
 - Distributed Wiki using zero-trust nomadic infrastructure and CRDTs
